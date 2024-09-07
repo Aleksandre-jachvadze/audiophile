@@ -1,0 +1,64 @@
+.bg-cont {
+  /* Initial styles */
+  background-image: url("../../assets/hero-img.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 610px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-cont {
+    background-image: url("../../assets/hero-img.png");
+    background-size: 110%;
+    background-color: rgb(25, 25, 25);
+  }
+}
+
+
+@media screen and (max-width: 896px) {
+  .bg-cont {
+    background-size: 130%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-cont {
+    background-size: 150%;
+  }
+}
+
+@media screen and (max-width: 704px) {
+  .bg-cont {
+    background-size: 170%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .bg-cont {
+    background-size: 190%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .bg-cont {
+    background-size: 210%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg-cont {
+    background-size: 230%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bg-cont {
+    background-size: 270%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .bg-cont {
+    background-size: 300%;
+  }
+}
